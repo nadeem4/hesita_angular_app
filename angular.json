@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hesita-angular-app"
+    }
+  },
+  "defaultProject": "hesita-angular-app",
+  "cli": {
+    "analytics": "7c793a80-2a9c-4a5c-bf7e-57571df29293"
+  }
 }
