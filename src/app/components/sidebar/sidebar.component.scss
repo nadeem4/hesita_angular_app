@@ -1,0 +1,19 @@
+.sidebar-container {
+    position: fixed;
+    top: 120px;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    .sidebar {
+        list-style: none;
+        margin: 0;
+        padding:0;
+        .tab {
+            margin: 14px 16px;
+            img {
+                padding-right: 5px;
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.home {
+    width: 100%;
+    padding: 24px;
+    .count-container {
+        margin-bottom: 20px;
+        .count-cards {
+            width: 100%;
+            justify-content: space-between;
+            .count-card {
+                width: 20%;
+            }
+        }
+    }
+    .recently-updated-loc {
+    }
+}

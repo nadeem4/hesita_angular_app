@@ -1,0 +1,33 @@
+<div class="home flex-col">
+    <div class="count-container flex-col">
+        <div class="top-bar">
+            <span class="left title-txt">Counts</span>
+        </div>
+        <div class="count-cards flex-row">
+            <ng-container>
+                <div class="count-card">
+                    <app-count-card title="Active Count" value="1400"></app-count-card>
+                </div>
+                <div class="count-card">
+                    <app-count-card title="District" value="1400"></app-count-card>
+                </div>
+                <div class="count-card">
+                    <app-count-card title="Areas" value="1400"></app-count-card>
+                </div>
+                <div class="count-card">
+                    <app-count-card title="Regions" value="1400"></app-count-card>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+    <div class="recently-updated-loc flex-col">
+        <div class="top-bar">
+
+            <span class="left title-txt">Locations Recently Updated</span>
+            <span class="right blue-txt">Expand All</span>
+        </div>
+        <div class="location-container">
+            <app-recently-updated-locations></app-recently-updated-locations>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,81 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100% ;
+    z-index: 999;
+    background-color: #05446A;
+  	height: 60px;
+    padding: 0 22px;
+    color: #ffff;
+    align-items: center;
+    .app-name {
+        flex-grow: 1;
+        font-size: 20px;
+        font-weight: bold;
+        &::after {
+            position: absolute;
+            content: "";
+            height: 2px;
+            background-color: #ffff;
+            width: 1px;
+            height: 30px;
+            margin-left: 55px;
+            top: 25%;
+            opacity: 0.2;
+        }
+
+    }
+    .title {
+        flex-grow: 18;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .user-box {
+        flex-grow: 1;
+        align-items: center ;
+        &::after {
+            position: absolute;
+            content: "";
+            height: 2px;
+            background-color: #ffff;
+            width: 1px;
+            height: 30px;
+            margin-left: 180px;
+            top: 25%;
+            opacity: 0.2;
+        }
+        .initials {
+            background-color: #26AED1;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 36px;
+            color: #fff;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: bolder;
+            margin-right: 10px;
+        }
+        .info {
+            .name {
+                font-weight: bold;
+            }
+            .role {
+                font-size: 14px;
+            }
+        }
+    }
+    .logout {
+        flex-grow: 0.5;
+        .icons {
+            width: 24px;
+            height: 24px;
+            margin-right: 7px;
+        }
+        .icon-logout {
+            background: url(/assets/i/logout.svg);
+            background-size: 21px 18px;
+        }
+    }
+}

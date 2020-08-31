@@ -1,0 +1,8 @@
+<div class="pannel-container white-bg" *ngIf="openSidePanel">
+    <ng-container *ngIf="opneLocationPanel && !openSearchPanel">
+        <app-location-panel></app-location-panel>
+    </ng-container>
+    <ng-container *ngIf="!opneLocationPanel && openSearchPanel">
+        <app-search-panel></app-search-panel>
+    </ng-container>
+</div>

@@ -1,0 +1,29 @@
+.location-panel {
+    padding: 16px;
+    .dblue-txt {
+        color: #05446a;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .tabs {
+        list-style-type: none;
+        margin: 0;
+        padding:0;
+        .tab {
+            text-align: center;
+            margin: 14px 16px;
+            text-align: center;
+            img {
+                padding-right: 8px;
+            }
+            a{
+                color:#5d678b;
+                text-decoration: none;
+                font-weight: normal;
+                font-size: 14px;
+                text-align: left;
+            }
+            
+        }
+    }
+}

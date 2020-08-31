@@ -14,10 +14,12 @@ import { ComponentsModule } from './components/components.module';
 
 // bootstrap module
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HomePageComponent } from './pages/home-page/home-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
